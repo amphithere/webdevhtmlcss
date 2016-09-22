@@ -1,0 +1,88 @@
+body {
+	background-image: url("https://static.pexels.com/photos/35189/landscape-rocks-ocean-nature.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%; 
+	-moz-background-size: 100%; 
+	-o-background-size: 100%; 
+	background-size: 100%; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+}
+
+.middle {
+	font-family: 'Quicksand', sans-serif;	color: rgba(0,0,0,0.7);
+	background-color: rgba(249, 249, 249, 0.95);
+	margin: 10em auto;
+	height: 560px;
+	width: 600px;
+	border-radius: 3px;
+	box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.3);	
+
+}
+
+.buttons{
+	display: inline-block;
+	height: 40px;
+	width: 50px;
+	line-height: 40px;
+	text-align: center;
+	box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	margin: 2em;
+	font-size: 20px;
+	color: rgb(87, 85, 85);
+}
+
+.buttons:hover{
+	box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.22);	
+	border-radius: 4px;
+	color: red;
+	cursor: pointer;
+	transition: color .4s;
+}
+
+.links{
+	text-align: center;
+	margin-top: 100px;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	opacity: .8;
+	margin: 1em 0;
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+#title{
+	text-shadow: 3px 3px 3px #fff;
+	text-align: center;
+	padding-top: 1em;
+	font-size: 40px;
+}
+
+#info {
+	margin: 4em;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*@media only screen and (max-width: 1025px) {
+	body{
+		background-image: url("https://c1.staticflickr.com/3/2469/3640569080_819b5294b3_b.jpg");
+		background-size:cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}*/
