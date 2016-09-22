@@ -72,17 +72,3 @@ hr {
 	text-align: center;
 	font-weight: bold;
 }
-
-/*@media only screen and (max-width: 1025px) {
-	body{
-		background-image: url("https://c1.staticflickr.com/3/2469/3640569080_819b5294b3_b.jpg");
-		background-size:cover;
-		background-repeat: no-repeat;
-	}
-}
-
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
-    }
-}*/
